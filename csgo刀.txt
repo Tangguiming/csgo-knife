@@ -1,0 +1,170 @@
+bind 3 "slot3;impulse 100"    自动检视
+
+sv_cheats 1;mp_c4timer 50;mp_overtime_enable 1;mp_restartgame 1;bot_allow_grenades 1;mp_autoteambalance 0;mp_limitteams 0;mp_ct_default_secondary weapon_usp_silencer;mp_defuser_allocation 1；mp_autoteambalance 0; mp_freezetime 5;mp_drop_knife_enable 1;
+
+;give weapon_knife_butterfly;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+mp_maxmoney 32000;mp_startmoney 32000;
+
+mp_teamlogo_1 navi;mp_teamlogo_2 ibp;
+
+bot_add_ct Na`Vi-s1mple;bot_add_ct Na`Vi-electronic;bot_add_ct Na`Vi-Perfecto;bot_add_ct Na`Vi-Boombl4;bot_add_ct Na`Vi-B1t
+
+bot_add_ct Na`Vi-zeus;bot_add_ct Na`Vi-Edward;bot_add_ct Na`Vi-s1mple;bot_add_ct Na`Vi-electronic;bot_add_ct Na`Vi-flamie
+
+bot_add_ct Astralis-Xyp9x;bot_add_ct Astralis-device;bot_add_ct Astralis-dupreeh;bot_add_ct Astralis-Magisk;bot_add_ct Astralis-gla1ve
+
+bot_add_t Astralis-Xyp9x;bot_add_t Astralis-device;bot_add_t Astralis-dupreeh;bot_add_t Astralis-Magisk;bot_add_t Astralis-gla1ve
+
+bot_add_t Na`Vi-s1mple;bot_add_t Na`Vi-electronic;bot_add_t Na`Vi-Perfecto;bot_add_t Na`Vi-Boombl4;bot_add_t Na`Vi-B1t
+
+bot_add_t  ENCE-Aleksib;bot_add_t ENCE-allu;bot_add_t ENCE-sergej;bot_add_t ENCE-Aeriel;
+
+bot_add_ct Vitality-ZywOo;bot_add_ct Astralis-device
+
+bot_add_ct G2-Niko;bot_add_ct G2-kennyS;bot_add_ct G2-nexa;bot_add_ct G2-AmaNEk;bot_add_ct G2-huNter-
+bot_add_ct TYLOO-DANK1NG;bot_add_ct TYLOO-SLOWLY;bot_add_ct TYLOO-Summer;bot_add_ct TYLOO-Attacker;bot_add_ct TYLOO-somebody
+
+
+流浪者匕首
+
+give weapon_knife_outdoor;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+骷髅匕首
+
+give weapon_knife_skeleton;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+求生匕首
+
+give weapon_knife_canis;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+系绳匕首
+
+give weapon_knife_cord;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+海豹短刀/经典匕首
+
+give weapon_knife_css;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+刺刀
+
+give weapon_bayonet;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+折叠刀
+
+give weapon_knife_flip;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+穿肠刀
+
+give weapon_knife_gut;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+爪子刀
+
+give weapon_knife_karambit;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+M9 刺刀
+
+give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+猎杀者匕首
+
+give weapon_knife_tactical;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+弯刀
+
+give weapon_knife_falchion;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+暗影双匕
+
+give weapon_knife_push;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+鲍伊猎刀
+
+give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+熊刀
+
+give weapon_knife_ursus;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+折刀
+
+give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+短剑
+
+give weapon_knife_stiletto;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+锯齿爪刀
+
+give weapon_knife_widowmaker;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+金刀
+
+give weapon_knifegg;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+幽灵之刃
+
+give weapon_knife_ghost;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+CT默认匕首
+
+give weapon_knife
+
+T默认匕首
+
+give weapon_knife_t
+
+connect 101.200.39.31:1234
+connect 106.15.109.16:27015
+
+个人战
+无敌时间
+半甲
+重开
+爆头模式
+
+
+mp_teammates_are_enemies 1;
+mp_respawn_immunitytime 0.5;
+mp_free_armor 1;
+mp_restartgame 1;
+mp_damage_headshot_only 1;
+
+bot_pistols_only
+
+官方透视挂
+r_drawothermodels 2
+
+官方陀螺挂
+m_yaw 220（恢复就把220改成0.022）
+
+官方飞天挂
+noclip 1
+
+官方加速挂
+host_timescale x（x为倍数）
+
+官方路飞挂（只是让手臂更长）
+fov_cs_debug 300
+
+官方无敌挂
+god 1
+
+爆头模式
+mp_damage_headshot_only 1
+
+
+spec_show_xray 0（可以直接在看demo时按X键开关）设置为0可以半闭透视。1为打开
+spec_hide_players 1设置为1可以关闭左右二侧的人物状态信息，更方便看demo
+
+mp_freezetime 5   冻结时间
+
+躲猫猫
+https://csgo.wanmei.com/communityserver?s=kod
+
+mp_maxmoney 32000;
+mp_startmoney 32000;
+mp_restartgame 1
+
+host_timescale 1   慢速
